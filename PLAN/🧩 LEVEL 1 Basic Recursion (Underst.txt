@@ -1,0 +1,103 @@
+🧩 LEVEL 1: Basic Recursion (Understanding the concept)
+
+These help you get comfortable with base case and recursive case.
+
+Print numbers from 1 to N (using recursion)
+
+Print numbers from N to 1 (reverse order)
+
+Sum of first N natural numbers
+
+Factorial of a number
+
+Power of a number (e.g. a^b using recursion)
+
+Fibonacci series up to N terms
+
+Count digits of a number
+
+Reverse a number (using recursion)
+
+Check if a string is palindrome
+
+Find GCD (Euclidean algorithm using recursion)
+
+👉 Goal: Learn how recursion “unwinds” and “rewinds”.
+
+⚙️ LEVEL 2: Intermediate Recursion (Multiple recursive calls)
+
+Now recursion starts doing actual work — not just linear repetition.
+
+Print all subsequences of a string
+
+Print all subsets of an array
+
+Find the sum of all elements in an array recursively
+
+Find maximum/minimum in an array using recursion
+
+Count number of ways to climb stairs (classic: 1 or 2 steps at a time)
+
+Generate all binary strings of length N
+
+Find nth Fibonacci number (optimized using memoization)
+
+Check if array is sorted (recursively)
+
+Replace all occurrences of 'pi' with "3.14" in a string
+
+Remove duplicates from a string recursively
+
+👉 Goal: Practice tree-shaped recursion and backtracking basics.
+
+🚀 LEVEL 3: Backtracking and Advanced Patterns
+
+Now recursion involves choices, constraints, and backtracking.
+
+Generate all permutations of a string/array
+
+Generate all combinations (choose k out of n)
+
+Rat in a Maze problem
+
+N-Queens problem
+
+Sudoku solver
+
+Word search in a matrix
+
+Subsets sum problem
+
+Phone keypad problem (like T9 on old phones)
+
+Letter case permutation (e.g., "a1b2" → "A1B2", "a1B2", etc.)
+
+Palindrome partitioning of a string
+
+👉 Goal: Learn how recursion explores all possible paths and backtracks.
+
+🧠 LEVEL 4: Advanced Recursion + DP (Optimization stage)
+
+Now recursion meets dynamic programming — memoization or tabulation.
+
+Longest Common Subsequence (LCS)
+
+Edit Distance
+
+Subset Sum / 0-1 Knapsack
+
+Matrix Chain Multiplication
+
+Unique paths in a grid (with obstacles)
+
+Coin Change (number of ways to make amount)
+
+Partition Equal Subset Sum
+
+Word Break problem
+
+Minimum Cost Path in a matrix
+
+Catalan number (count of BSTs / parenthesis combinations)
+
+👉 Goal: Master recursive thinking for optimization and DP.
