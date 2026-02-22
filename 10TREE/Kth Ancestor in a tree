@@ -1,0 +1,39 @@
+/*
+Structure of the node of the binary tree is as
+struct Node
+{
+    int data;
+    struct Node *left, *right;
+};
+*/
+// your task is to complete this function
+class Solution {
+  public:
+  bool solve(Node* root,int k,int node,vector<int>&path){
+      if(root==NULL){
+          return false;
+      }
+      path.push_back(root->data);
+      if(root->data==node){
+        return true;
+    }
+      if(solve(root->left,k,node,path) || solve(root->right,k,node,path)){
+          return true;
+      }
+     else{
+          path.pop_back();
+         return false;
+          
+     }
+      
+  }
+    int kthAncestor(Node *root, int k, int node) {
+      vector<int>path;
+      solve(root,k,node,path);
+      int n=path.size();
+      if(n-k-1>=0){
+          return path[n-k-1];
+      }
+      return -1;
+    }
+};
